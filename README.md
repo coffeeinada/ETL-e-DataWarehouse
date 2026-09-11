@@ -3,6 +3,7 @@
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" alt="Status: Em desenvolvimento" />
   <img src="http://img.shields.io/static/v1?label=FERRAMENTA&message=PostgreSQL&color=BLUE&style=for-the-badge" alt="Ferramenta: PostgreSQL" />
+  <img src="http://img.shields.io/static/v1?label=FERRAMENTA&message=Docker&color=BLUE&style=for-the-badge" alt="Ferramenta: Docker" />
   <img src="http://img.shields.io/static/v1?label=LINGUAGEM&message=Python&color=yellow&style=for-the-badge" alt="Linguagem: Python" />
   <img src="http://img.shields.io/static/v1?label=MODELO&message=Star%20Schema&color=orange&style=for-the-badge" alt="Modelo: Star Schema" />
 </p>
@@ -86,6 +87,110 @@ Foi restaurado o banco de dados AdventureWorks (OLTP) e analisado seu modelo rel
 
 > ⚠️ **Observação do Avaliador:**
 > "O artigo possui peso significativo na avaliação, sendo fundamental para demonstrar a compreensão conceitual e técnica do trabalho desenvolvido".
+
+## Inicialização
+
+Este projeto utiliza Docker para executar os bancos de dados PostgreSQL e SQL Server.
+
+### Pré-requisitos
+
+Antes de iniciar o projeto, certifique-se de ter o Docker instalado e funcionando na sua máquina.
+
+Também é necessário possuir o arquivo de backup do AdventureWorks (.bak).
+
+### Inicializando o projeto
+
+1. Obtenha o backup do AdventureWorks
+
+Primeiramente, faça o download ou obtenha o arquivo de backup do AdventureWorks no formato .bak.
+  > **Importante**: o arquivo .bak não deve ser versionado junto com o projeto.
+
+2. Windows
+
+No Windows, abra o PowerShell dentro da pasta do projeto e execute o script abaixo, substituindo o caminho pelo local onde o arquivo .bak está armazenado:
+
+```
+.\scripts\setup.ps1 "C:\Backups\AdventureWorks.bak"
+```
+
+3. Linux
+
+No Linux, primeiro dê permissão de execução ao script:
+
+```
+chmod +x scripts/setup.sh
+```
+
+Em seguida, execute o script informando o caminho do arquivo .bak:
+```
+./scripts/setup.sh /home/usuario/Downloads/AdventureWorks.bak
+```
+
+O script irá:
+- Inicializar os containers do PostgreSQL e SQL Server.
+- Aguardar o SQL Server estar disponível.
+- Copiar o arquivo .bak para o container.
+- Identificar os arquivos do backup.
+- Restaurar o banco de dados no SQL Server.
+- Exibir as informações necessárias para conexão através do DBeaver.
+
+Ao final da execução, serão apresentadas as informações de conexão dos bancos.
+
+### Comandos básicos do Docker
+
+#### Subir os containers
+Para iniciar os containers do PostgreSQL e SQL Server:
+
+```
+docker compose up -d
+```
+
+#### Visualizar os containers
+Para verificar o status dos containers:
+```
+docker compose ps
+```
+
+#### Acompanhar os logs
+Para acompanhar os logs de todos os serviços:
+```
+docker compose logs -f
+```
+
+#### Para acompanhar os logs de um serviço específico:
+```
+docker compose logs -f [nome-do-serviço]
+```
+
+Por exemplo:
+```
+docker compose logs -f sqlserver
+```
+ou:
+```
+docker compose logs -f postgres
+```
+
+#### Parar os containers
+Para parar os containers sem removê-los:
+```
+docker compose stop
+```
+
+#### Derrubar os containers
+Para parar e remover os containers:
+```
+docker compose down
+```
+
+  > **Atenção**: o comando docker compose down não remove os volumes dos bancos. Os dados permanecem armazenados nos volumes do Docker.
+
+Para remover também os volumes e, consequentemente, os dados dos bancos, seria necessário utilizar:
+```
+docker compose down -v
+```
+
+  > ⚠️ **Cuidado**: não execute docker compose down -v caso queira preservar os dados dos bancos.
 
 ## 📚 Referências
 
