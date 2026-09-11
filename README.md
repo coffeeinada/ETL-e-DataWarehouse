@@ -16,6 +16,7 @@
 - [👥 Grupo](#-grupo)
 - [📋 Enunciado](#-enunciado)
 - [✅ Atividades realizadas](#-atividades-realizadas)
+- [💡 Inicialização](#-inicialização)
 - [📚 Referências](#-referências)
 
 ---
@@ -39,7 +40,7 @@ Este trabalho é formado por 3 membros:
 |---|---|
 | Pedro Henrique Coelho Lovatti | [@pedrocoelho04](https://github.com/pedrocoelho04) |
 | Debora Cupertiono De Araújo Lacerda | [@coffeeinada](https://github.com/coffeeinada) |
-| João Henrique Silva Reis | — |
+| João Henrique Silva Reis | [@JHenriqueSR] |
 
 ## 📋 Enunciado
 
@@ -88,7 +89,7 @@ Foi restaurado o banco de dados AdventureWorks (OLTP) e analisado seu modelo rel
 > ⚠️ **Observação do Avaliador:**
 > "O artigo possui peso significativo na avaliação, sendo fundamental para demonstrar a compreensão conceitual e técnica do trabalho desenvolvido".
 
-## Inicialização
+## 💡 Inicialização
 
 Este projeto utiliza Docker para executar os bancos de dados PostgreSQL e SQL Server.
 
