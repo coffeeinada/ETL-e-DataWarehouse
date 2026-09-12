@@ -14,6 +14,7 @@
 
 - [📄 Objetivo](#-objetivo)
 - [👥 Grupo](#-grupo)
+- [📊 Conteudo Produzido](#-grupo)
 - [📋 Enunciado](#-enunciado)
 - [✅ Atividades realizadas](#-atividades-realizadas)
 - [💡 Inicialização](#-inicialização)
@@ -40,7 +41,16 @@ Este trabalho é formado por 3 membros:
 |---|---|
 | Pedro Henrique Coelho Lovatti | [@pedrocoelho04](https://github.com/pedrocoelho04) |
 | Debora Cupertiono De Araújo Lacerda | [@coffeeinada](https://github.com/coffeeinada) |
-| João Henrique Silva Reis | [@JHenriqueSR] |
+| João Henrique Silva Reis | [@JHenriqueSR](https://github.com/JHenriqueSR)|
+
+## 📊 Conteudo Produzido
+
+Esta aqui alguns documentos produzidos durante a realização desse projeto.
+
+- [Analise da Base Adventure Works](https://docs.google.com/document/d/1_vlLK6V3nzZ12YFXfDgCW_L6mTUc8EbcKzoUof_bNrE/edit?usp=sharing)
+- [Diagram de Entidade Relacionamento](https://drive.google.com/file/d/1RDFefJJvrOsebWlaffeLLxQTI0LLpknv/view?usp=sharing)
+- [Diagrama Logico](https://drive.google.com/file/d/1Lw-gec3Lgh3c2Asbb2xpAJYFyOXCU3zn/view?usp=sharing)
+- [Artigo](https://docs.google.com/document/d/1c84bqYlketJUAEkenTeKCanJdrBRTHSn/edit?usp=sharing&ouid=106766352427472102929&rtpof=true&sd=true)
 
 ## 📋 Enunciado
 
