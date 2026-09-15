@@ -47,10 +47,11 @@ Este trabalho é formado por 3 membros:
 
 Esta aqui alguns documentos produzidos durante a realização desse projeto.
 
-- [Analise da Base Adventure Works](https://docs.google.com/document/d/1_vlLK6V3nzZ12YFXfDgCW_L6mTUc8EbcKzoUof_bNrE/edit?usp=sharing)
-- [Diagram de Entidade Relacionamento](https://drive.google.com/file/d/1RDFefJJvrOsebWlaffeLLxQTI0LLpknv/view?usp=sharing)
-- [Diagrama Logico](https://drive.google.com/file/d/1Lw-gec3Lgh3c2Asbb2xpAJYFyOXCU3zn/view?usp=sharing)
-- [Artigo](https://docs.google.com/document/d/1c84bqYlketJUAEkenTeKCanJdrBRTHSn/edit?usp=sharing&ouid=106766352427472102929&rtpof=true&sd=true)
+- [Analise bruto da Base Adventure Works](https://docs.google.com/document/d/1_vlLK6V3nzZ12YFXfDgCW_L6mTUc8EbcKzoUof_bNrE/edit?usp=sharing)
+- [Diagrama de Entidade Relacionamento](https://drive.google.com/drive/folders/1F9IwObeYp8KYHEz2P3chBcaB6eWbCjhR?usp=sharing)
+- [Diagrama Logico](https://drive.google.com/drive/folders/1mEyWoRVuSfD8O2GD9-g8cSOPoOqNhjDz?usp=sharing)
+- [Diagrama Estrela](https://drive.google.com/file/d/1DLZOgg6iTW0IPCfSL8qDZuZSnApaj8Be/view?usp=sharing)
+- [Artigo](https://drive.google.com/drive/folders/1h8MfAkq0aLYO8A4ukgt3AmPgL7-FZgKc?usp=sharing)
 
 ## 📋 Enunciado
 
