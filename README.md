@@ -211,3 +211,18 @@ docker compose down -v
 - **Modelo de dados AdventureWorks** — [Schema (blogdozouza)](https://blogdozouza.wordpress.com/wp-content/uploads/2019/10/adventureworks2008_schema.gif)
 - **Star Schema (Modelo Multidimensional)** — [Wikipedia](https://en.wikipedia.org/wiki/Star_schema)
 - **Guia UNISALES de Elaboração de Trabalhos Acadêmicos** — [PDF](https://unisales.br/wp-content/uploads/2024/07/NOVO-GUIA-DE-ELABORACAO-E-NORMALIZACAO-DE-TRABALHOS-ACADEMICOS-E-DE-PESQUISA-29.05.pdf)
+
+
+# Data Warehouse - AdventureWorks (Purchasing)
+
+Projeto de Engenharia de Dados focado na construção de um Data Warehouse no padrão **Star Schema** (Modelo Estrela) utilizando o AdventureWorks.
+
+## 🚀 Como Executar o Projeto
+
+1. **Criar o Banco de Dados:**
+   Execute o script contido em `database/01_ddl_dw.sql` no seu PostgreSQL.
+
+2. **Instalar Dependências da ETL:**
+   Abra o terminal na pasta do projeto e digite:
+   ```bash
+   pip install -r etl/requirements.txt
