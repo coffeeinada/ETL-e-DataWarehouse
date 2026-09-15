@@ -74,18 +74,18 @@ Foi restaurado o banco de dados AdventureWorks (OLTP) e analisado seu modelo rel
 
 ## ✅ Atividades realizadas
 
-- [ ] Avaliar o modelo de dados do AdventureWorks (OLTP);
-- [ ] Elaborar 10 indicadores (métricas/KPIs);
-- [ ] Propor um modelo multidimensional seguindo o padrão Star Schema;
-- [ ] Elaborar o diagrama do modelo estrela (Draw.io, PlantUML ou ferramenta similar);
+- [X] Avaliar o modelo de dados do AdventureWorks (OLTP);
+- [X] Elaborar 10 indicadores (métricas/KPIs);
+- [X] Propor um modelo multidimensional seguindo o padrão Star Schema;
+- [X] Elaborar o diagrama do modelo estrela (Draw.io, PlantUML ou ferramenta similar);
 - [ ] Construir uma ETL incremental em Python para popular o Data Warehouse;
 - [ ] Implementar o Data Warehouse no PostgreSQL;
-- [ ] Criar um repositório no GitHub para armazenar o projeto da ETL e os scripts do Data Warehouse;
-- [ ] Escrever um artigo no padrão Unisales contendo:
-  - [ ] Introdução
-  - [ ] Fundamentação teórica (Modelagem Multidimensional e ETL)
-  - [ ] Desenvolvimento
-  - [ ] Considerações finais
+- [X] Criar um repositório no GitHub para armazenar o projeto da ETL e os scripts do Data Warehouse;
+- [X] Escrever um artigo no padrão Unisales contendo:
+  - [X] Introdução
+  - [X] Fundamentação teórica (Modelagem Multidimensional e ETL)
+  - [X] Desenvolvimento
+  - [X] Considerações finais
 
 ### 📝 Conteúdo do desenvolvimento do artigo
 
