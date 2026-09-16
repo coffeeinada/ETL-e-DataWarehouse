@@ -1,6 +1,6 @@
-
 CREATE DATABASE dw_adventureworks_purchasing;
 
+-- Conecte-se ao banco dw_adventureworks_purchasing antes de rodar os comandos abaixo, se necessário.
 
 CREATE TABLE DIM_TEMPO (
     sk_tempo INT PRIMARY KEY,
@@ -57,17 +57,16 @@ CREATE TABLE DIM_STATUS_PEDIDO (
     descricao VARCHAR(100)
 );
 
-
 CREATE TABLE FATO_PEDIDO_COMPRA (
     sk_fato INT PRIMARY KEY,
-    fk_data_pedido INT REFERENCES DIM_TEMPO(osk_tempo),
-    fk_data_entrega INT REFERENCES DIM_TEMPO(osk_tempo),
-    fk_data_envio INT REFERENCES DIM_TEMPO(osk_tempo),
-    fk_fornecedor INT REFERENCES DIM_FORNECEDOR(osk_fornecedor),
-    fk_funcionario INT REFERENCES DIM_FUNCIONARIO(osk_funcionario),
-    fk_produto INT REFERENCES DIM_PRODUTO(osk_produto),
-    fk_metodo_envio INT REFERENCES DIM_METODO_ENVIO(osk_metodo_envio),
-    fk_status INT REFERENCES DIM_STATUS_PEDIDO(osk_status),
+    fk_data_pedido INT REFERENCES DIM_TEMPO(sk_tempo),
+    fk_data_entrega INT REFERENCES DIM_TEMPO(sk_tempo),
+    fk_data_envio INT REFERENCES DIM_TEMPO(sk_tempo),
+    fk_fornecedor INT REFERENCES DIM_FORNECEDOR(sk_fornecedor),
+    fk_funcionario INT REFERENCES DIM_FUNCIONARIO(sk_funcionario),
+    fk_produto INT REFERENCES DIM_PRODUTO(sk_produto),
+    fk_metodo_envio INT REFERENCES DIM_METODO_ENVIO(sk_metodo_envio),
+    fk_status INT REFERENCES DIM_STATUS_PEDIDO(sk_status),
     
     numero_pedido INT,
     numero_item INT,
